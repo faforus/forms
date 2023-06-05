@@ -1,0 +1,36 @@
+{
+  "name": "leader",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "20.1.5",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@types/react-redux": "^7.1.25",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "formik": "^2.4.0",
+    "next": "13.4.2",
+    "postcss": "8.4.23",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-select": "^5.7.3",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@types/validator": "^13.7.17"
+  }
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navButton {
+    @apply px-1 md:px-6 py-2 border border-transparent rounded-full uppercase text-xs tracking-widest text-gray-500 hover:border-[#222222] hover:text-[#222222]/40 duration-300;
+    transition-property: border-color, color;
+  }
+  .contactInput {
+    @apply w-[100%] h-[20px] md:h-auto outline-none bg-slate-400/10 rounded-sm px-6 py-3 border-[#f7ab0a] text-gray-800 placeholder-gray-500 focus:ring-1 focus:ring-orange-400 focus:border-[#f7ab0a] focus:text-slate-500 hover:border-[#f7ab0a]/40 duration-200;
+    transition-property: border-color, color;
+  }
+  .formInput {
+    @apply w-[100%] h-[20px] md:h-auto outline-none bg-slate-400/10 rounded-sm px-6 py-3 border-[#f7ab0a] text-gray-800 placeholder-gray-500 focus:ring-1 focus:ring-orange-400 focus:border-[#f7ab0a] focus:text-slate-500 hover:border-[#f7ab0a]/40 duration-200;
+    transition-property: border-color, color;
+  }
+  .divForm input {
+    @apply w-[100%] h-[20px] md:h-auto outline-none bg-slate-400/10 rounded-sm px-6 py-3 border-[#f7ab0a] text-gray-800 placeholder-gray-500 focus:ring-1 focus:ring-orange-400 focus:border-[#f7ab0a] focus:text-slate-500 hover:border-[#f7ab0a]/40 duration-200;
+    transition-property: border-color, color;
+  }
+  .react-select input {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .checkbox input {
+    @apply h-4 w-4 border-red-300 mainColor2 focus:ring-red-200 mr-2;
+  }
+  .mainColor {
+    @apply bg-[#f7ab0a] accent-[#f7ab0a];
+  }
+  .mainColor2 {
+    @apply text-[#f7ab0a];
+  }
+  .backButtonColor {
+    @apply bg-orange-500;
+  }
+  .errorMessage {
+    @apply text-red-500;
+  }
+}
